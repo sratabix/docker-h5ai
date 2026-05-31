@@ -13,3 +13,4 @@ docker run --rm -p 8080:80 \
 
 - Mount your host files into `/app/files`.
 - Set `HT_PASSWORD` to the password you want for HTTP basic auth.
+- Log in with username `admin` and the password from `HT_PASSWORD`. The username is fixed and cannot be changed.
